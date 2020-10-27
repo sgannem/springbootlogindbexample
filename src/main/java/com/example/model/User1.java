@@ -1,4 +1,4 @@
-package net.javaguides.springboot.springsecurity.model;
+package com.example.model;
 
 import javax.persistence.*;
 import java.util.Collection;

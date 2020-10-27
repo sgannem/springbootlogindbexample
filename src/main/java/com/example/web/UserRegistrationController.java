@@ -1,8 +1,9 @@
-package net.javaguides.springboot.springsecurity.web;
+package com.example.web;
 
+import com.example.model.User1;
+import com.example.web.dto.UserRegistrationDto;
 import javax.validation.Valid;
 
-import net.javaguides.springboot.springsecurity.model.User1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,8 +13,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import net.javaguides.springboot.springsecurity.service.UserService;
-import net.javaguides.springboot.springsecurity.web.dto.UserRegistrationDto;
+import com.example.service.UserService;
 
 @Controller
 @RequestMapping("/registration")

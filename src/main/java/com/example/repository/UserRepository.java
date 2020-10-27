@@ -1,6 +1,6 @@
-package net.javaguides.springboot.springsecurity.repository;
+package com.example.repository;
 
-import net.javaguides.springboot.springsecurity.model.User1;
+import com.example.model.User1;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

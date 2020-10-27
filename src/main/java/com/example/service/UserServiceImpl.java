@@ -1,10 +1,12 @@
-package net.javaguides.springboot.springsecurity.service;
+package com.example.service;
 
+import com.example.model.Role;
+import com.example.model.User1;
+import com.example.web.dto.UserRegistrationDto;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-import net.javaguides.springboot.springsecurity.model.User1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -13,9 +15,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import net.javaguides.springboot.springsecurity.model.Role;
-import net.javaguides.springboot.springsecurity.repository.UserRepository;
-import net.javaguides.springboot.springsecurity.web.dto.UserRegistrationDto;
+import com.example.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

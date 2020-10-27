@@ -1,4 +1,4 @@
-package net.javaguides.springboot.springsecurity.constraint;
+package com.example.constraint;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
